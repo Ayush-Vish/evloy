@@ -1,0 +1,293 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fefae7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+nav {
+  width: 80%;
+  display: flex;
+
+  align-items: center;
+}
+
+.logo {
+  width: 10%;
+  font-size: xx-large;
+}
+
+.top-contents {
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  gap: 10px;
+}
+
+.nav-right {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 200px;
+  align-items: center;
+  width: 90%;
+}
+
+.login-signup {
+  width: 45%;
+}
+.login-signup > button {
+  padding: 7px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.login-signup > button:first-child {
+  background-color: transparent;
+  border: 3px solid #f95700;
+  color: #000;
+}
+.login-signup > button:nth-child(2) {
+  background-color: transparent;
+  border: 3px solid #f95700;
+  background-color: #f95700;
+  color: white;
+}
+
+main {
+  margin-top: 10px;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.invite-only {
+  color: white;
+  font-weight: 800;
+  padding: 7px;
+  background-color: #f95700;
+  text-align: center;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.main-h2 {
+  text-align: center;
+  width: 45%;
+}
+
+.skyrocket {
+  width: 80%;
+  text-align: center;
+  font-size: x-large;
+  font-weight: bolder;
+}
+.skyrocket > h1 > span {
+  color: #f95700;
+}
+
+.hero {
+  display: flex;
+  width: 90%;
+    justify-content: space-between; 
+  margin-top: 40px;
+
+}
+
+.video-div  { 
+    background-color: #000;
+    height: 200px; 
+    
+}
+.para-video  {
+  background-color: #f95700;
+  padding: 5px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.hero-left { 
+  padding: 2px;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center; 
+
+}
+.bullet-points { 
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.bullet-point  {
+  display: flex;
+  padding: 15px;
+}
+.page1-footer { 
+  display: flex;
+  flex-direction:column;
+  justify-content: center; 
+  align-items:center;
+  margin: 20px;
+  width: 50%;
+}
+.page1-footer > div > h4  { 
+  font-size:large;
+  text-align: center;
+
+
+}
+.simple-way  { 
+  width: 60%;
+  font-weight: 600;
+}
+
+
+
+
+
+.page1-footer { 
+  gap: 15px;
+}
+.scale-your-etsy {
+  display: flex; 
+  width: 80%; 
+  justify-content: space-around; 
+
+  align-items: center;
+
+}
+.scale-your-etsy > div { 
+  font-weight: 900;
+  font-size: 50px;
+  
+}
+.scale-your-etsy > div > button  { 
+  padding: 20px ; 
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: x-large;
+  font-weight: 900;
+  background-color: #f95700;
+  color: white;
+  border: none ; 
+  border-radius: 10px ;
+  
+  
+}
+.buy-once  { 
+  display: flex ; 
+  gap: 3px;
+  font-size: small;
+}
+.buy-once > div > i  { 
+  color: #f95700;
+}
+.page2  { 
+  width: 100%;
+  background-color: white;
+  padding: 100px ;
+}
+
+.page2-innerdiv {  
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #fefae7;
+  padding: 40px;
+  
+}
+
+.page2-upperdiv  { 
+  display: flex; 
+  padding: 50px;
+  justify-content: center;
+  align-items: center;
+
+
+}
+.avatar-to {
+  display: flex;
+  padding: 3px;
+  gap: 10px;
+} 
+.avatar-to > div > img { 
+  
+  width: 50px;
+  border: 2px solid #f95700;
+  border-radius: 100%;
+  mix-blend-mode: darken;
+}
+.avatar-to-para { 
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
+}
+
+.page2-upperdiv-leftdiv { 
+   display: flex;
+  flex-direction: column; 
+  gap: 20px;
+  padding-left: 10px;
+}
+.page2-upperdiv-leftdiv > div >  span { 
+  font-weight: 900;
+}
+
+.list-seo {
+  display: flex;
+  flex-direction: column; 
+  gap: 10px;
+}
+.list-seo > div  {
+  display: flex;
+  gap: 10px;
+
+
+}
+.page2-lowerdiv{ 
+  display: flex; 
+  padding: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.page2-lowerdiv-leftimg > img {
+   height: 300px;
+}
+
+
+.page3-outerdiv  { 
+  padding: 70px;
+  width: 100%;
+  background-color: white; 
+
+}
+.page3-innerdiv { 
+  --dot-bg: white;
+    --dot-color: rgb(186, 186, 186);
+    --dot-size: 3px;
+    --dot-space: 10px;
+    background:
+      linear-gradient(90deg, var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+      linear-gradient(var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
+      var(--dot-color); 
+  
+}
