@@ -408,7 +408,7 @@ main {
 
 }
 
-@media screen and (min-width: 1500px ) and (max-width:2000px) {
+@media screen and (min-width: 1732px ) and (max-width:2000px) {
   .box .group {
     position: absolute;
     top: 160px;
@@ -421,10 +421,23 @@ main {
   }
 }
 
-@media screen and (min-width: 1174px  ) and (max-width:1500px) {
+@media screen and (min-width: 1400px  ) and (max-width:1732px) {
   .box .group {
     position: absolute;
-    top: 190px;
+    top: 170px;
+    left: 22%;
+    z-index: 99;
+    width: 85%;
+    /* background-color: rgb(219, 147, 53); */
+    height: 225px;
+ 
+  
+  }
+}
+@media screen and (min-width: 1174px  ) and (max-width:1400px) {
+  .box .group {
+    position: absolute;
+    top: 170px;
     left: 25%;
     z-index: 99;
     width: 85%;
