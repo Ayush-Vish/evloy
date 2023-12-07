@@ -331,7 +331,7 @@ main {
 
 .blocks {
   width: 100%;
-
+  /* background-color: aqua; */
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -345,23 +345,26 @@ main {
   position: relative;
 
 }
+
 .inner-blocks { 
 
   display: flex; 
   gap: 100px;
-  width: 100;
+  justify-content: center ; 
+  align-items: center;
+  width: 75%;
   padding: 10px;
 
 }
 .block {
   
-  background-color: #fefae7;
+  /* background-color: #ddc443; */
   padding: 30px; 
   /* height: 120px; */
    border: 2px solid #f95700 ;
    border-radius: 10px;
   position: relative;
-  width: 300px;
+  width: 30%;
   box-sizing: border-box;
   padding-top: 40px;
   position: relative;
@@ -395,11 +398,139 @@ main {
 .box .group {
   position: absolute;
   top: 170px;
-  left: 50px;
- 
-  width: 1287px;
+  left: 20%;
+  z-index: 99;
+  width: 85%;
   height: 225px;
   transform: translateY(-100px);
-  transform: translateX(-10px);
+  transform: translateX(-170px);
+  /* background-color: pink; */
 
+}
+
+@media screen and (min-width: 1500px ) and (max-width:2000px) {
+  .box .group {
+    position: absolute;
+    top: 160px;
+    left: 20%;
+    z-index: 99;
+    width: 85%;
+    /* background-color: rgb(68, 129, 81); */
+    height: 225px;
+  
+  }
+}
+
+@media screen and (min-width: 1174px  ) and (max-width:1500px) {
+  .box .group {
+    position: absolute;
+    top: 190px;
+    left: 25%;
+    z-index: 99;
+    width: 85%;
+    /* background-color: rgb(219, 147, 53); */
+    height: 225px;
+ 
+  
+  }
+}
+@media screen and (min-width: 300px  ) and (max-width:1174px) {
+  .box .group {
+      display: none;
+  }
+  .blocks {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .arrow { 
+    display: none;
+  }
+  .inner-blocks {
+    gap: 20px;
+    flex-direction: column;
+  }
+  .page2-upperdiv { 
+    flex-direction: column-reverse;
+  }
+  .page2-lowerdiv { 
+    flex-direction: column;
+  }
+  .block {
+   width: 300px ;
+  }
+  .top-contents { 
+    display: none;
+  }
+  nav {
+    display: flex   ;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .nav-right {
+    position: relative;
+
+  }
+  .login-signup { 
+    display: flex; 
+    justify-content: flex-end;
+    position: absolute;
+    right: 0;
+    gap: 4px;
+
+  }
+  main { 
+    padding: 3px;
+  }
+  .main-h2 { 
+    width: 80%;
+    font-size: small;
+  }
+  .skyrocket  {
+    font-size: medium;
+    width: 92%;
+    text-align: center;
+    padding: 0;
+  }
+  .bullet-points{ 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero { 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .simple-way {
+    width: 90%;
+    padding: 0;
+  }
+  .page1-footer {
+    padding: 0;
+    margin: 0;
+  }
+  .scale-your-etsy { 
+    width: 100%; 
+    padding: 0;
+    margin: 0;
+    gap: 3px;
+    width: 350px;
+    align-items: center; 
+    justify-content: center; 
+
+  }
+  .scale-your-etsy > div > button  {
+    padding: 2px; 
+
+  }
+  .scale-your-etsy > div > i {
+    font-size: xx-large;
+  }
+  .buy-once {
+    flex-direction: column;
+  }
+  .page2 { 
+    padding: 20px;
+  }
 }
