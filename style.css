@@ -106,16 +106,21 @@ main {
 
 .hero {
   display: flex;
-  width: 90%;
-    justify-content: space-around; 
   margin-top: 40px;
+  width: 75% ;
+  justify-content: center;
+  padding-left: 20px;
+  padding-right: 20px;
+
 
 }
 
 .video-div  { 
-    background-color: #000;
-    height: 200px; 
+    background-color: black;
+    height: 270px; 
+    width: 100%;
     position: relative;
+    
     border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
     
@@ -142,20 +147,37 @@ main {
 .para-video >   p { 
   font-size: small;
   color: white;
+  text-align: center;
 }
 .hero-left { 
   padding: 2px;
   display: flex;
   height: 100%;
-  width: 100%;
-  justify-content: center; 
+  width: 50%;
+  /* justify-content: center;  */
 
 }
+.hero-left-inner {
+  width: 80%;
+}
 .bullet-points { 
-    width: 100%;
+    width: 50%;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
+    
+      /* justify-content: space-between; */
+    /* background: #000; */
+    /* align-items: center; */
+
+}
+.bullet-points > ul { 
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.bullet-point  >div > span  {
+  font-weight: 900;
+  
 
 }
 
@@ -306,15 +328,10 @@ main {
 
 }
 .page3-innerdiv { 
-  --dot-bg: white;
-    --dot-color: rgb(228, 222, 222);
-    --dot-size: 3px;
-    --dot-space: 10px;
-    background:
-      linear-gradient(90deg, var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
-      linear-gradient(var(--dot-bg) calc(var(--dot-space) - var(--dot-size)), transparent 1%) center / var(--dot-space) var(--dot-space),
-      var(--dot-color); 
+  background: rgba(234, 230, 230, 0.229);
   display: flex ; 
+ 
+
   justify-content: center; 
   align-items: center; 
   flex-direction: column; 
@@ -511,9 +528,21 @@ main {
     justify-content: center;
   }
   .hero { 
+
+    width: 100%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
+  .hero-left {
+    width: 70%;
+  }
+  .bullet-points{
+    width: 70%;
+  }
+  .hero-left-inner {
+    width: 100%;
+    height: 100%;
   }
   .simple-way {
     width: 90%;
